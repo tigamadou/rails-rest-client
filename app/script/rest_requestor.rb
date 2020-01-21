@@ -1,4 +1,7 @@
 require 'rest-client'
-url = "http://localhost:3000"
+home = "http://localhost:3000/users"
+show = "http://localhost:3000/users/1/show"
+edit = "http://localhost:3000/users/1/edit"
+new = "http://localhost:3000/users/new"
 
-puts RestClient.get(url)
+puts RestClient.get(home)
